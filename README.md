@@ -1,6 +1,6 @@
 # Security-logging-system
 Security Logging system : SD Card , Interactive LCD screen ,Login keypad ,System switch ,RFID switch ,Mobile App switch
-## This is an <h2> Hanna
+
 Develop a logging system that satisfies the following requirements:
 - Acquires 3 signals from 3 different sensors (e.g. temperature, pressure, altitude), two readings 
 for each sensor per second.
