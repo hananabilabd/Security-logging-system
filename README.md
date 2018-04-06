@@ -12,7 +12,7 @@ look like:
 2017.09.18 05:44:53 Temperature: XXu Pressure: YYu Altitude: ZZu, where u is the proper 
 abbreviation for the unit in which each reading is acquired/recorded in.
 
--     ***Interactive LCD screen***:
+-     **Interactive LCD screen**:
 o Each sensor logging can be enabled or disabled using an interactive ATM-like 2- lines LCD. You 
 need 4 push buttons to turn the regular LCD into an ATM-like  one.
 o LCD should always display each sensor readings average over the last 5 seconds. It should also 
@@ -21,7 +21,7 @@ o In the enable-disable screen, the user can switch each sensor acquisition on o
 should also have an option to return back to the main screen (the one that displays the readings 
 average). When a sensor is disabled for more  than 5 seconds, the average should basically be 0.
 
--    ***Login keypad***:
+-    **Login keypad**:
 o System should not start to operate until the user can provide a proper login password. This 
 password should be entered using a 9-button keypad. The 9- button keypad should allow all 
 alphabetic/numbers similar to your old mobile phones keypad.
@@ -29,7 +29,7 @@ o  The system should allow the user to toggle between show and hide password.  A
 the password on the keypad, it should show up on the LCD either as the actual characters (i.e. the 
 Show mode), or as * characters (i.e. the Hide mode).
 
--     ***System switch***:
+-     **System switch**:
 o The whole system should have a software-style on/off  switch.
 ▪    By default, the system is OFF, and LCD is showing nothing.
 ▪ When the switch is turned ON, the system starts to operate and LCD  display its screens.
