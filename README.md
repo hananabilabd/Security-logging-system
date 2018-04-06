@@ -5,7 +5,7 @@ Develop a logging system that satisfies the following requirements:
 - Acquires 3 signals from 3 different sensors (e.g. temperature, pressure, altitude), two readings 
 for each sensor per second.
 
-    **SD Card** :
+   **SD Card** :
 
     o Sensor readings are to be logged/saved on an SD card in a readable format.  Each reading should 
     be combined with the exact time at which it was acquired. For ex, a line in the SD card file would 
@@ -13,7 +13,7 @@ for each sensor per second.
     2017.09.18 05:44:53 Temperature: XXu Pressure: YYu Altitude: ZZu, where u is the proper 
     abbreviation for the unit in which each reading is acquired/recorded in.
 
-    **Interactive LCD screen** :
+   **Interactive LCD screen** :
     
     o Each sensor logging can be enabled or disabled using an interactive ATM-like 2- lines LCD. You 
     need 4 push buttons to turn the regular LCD into an ATM-like  one.
@@ -38,14 +38,10 @@ for each sensor per second.
    **System switch** :
    
       o The whole system should have a software-style on/off  switch.
-      
       ▪    By default, the system is OFF, and LCD is showing nothing.
-      
       ▪ When the switch is turned ON, the system starts to operate and LCD  display its screens.
-      
       ▪ When the switch is turned OFF, the LCD will  display  a  “shutdown”  warning message at which the 
       user can confirm or cancel.
-      
       ▪   Upon user confirmation on the shutdown message, the system should    turn OFF.
       
    **RFID switch** :
